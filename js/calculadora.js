@@ -1,3 +1,6 @@
+// OPERAÇÕES MATEMÁTICAS
+
+// ADIÇÃO
 function operacaoAdicao() {
     document.getElementById('operacao').innerHTML = "+";
 
@@ -9,6 +12,7 @@ function operacaoAdicao() {
     document.getElementById("resultado").innerHTML = "Resultado = " + resultadoSoma;
 }
 
+// SUBTRAÇÃO
 function operacaoSubtracao() {
     document.getElementById('operacao').innerHTML = "-";
 
@@ -20,8 +24,9 @@ function operacaoSubtracao() {
     document.getElementById("resultado").innerHTML = "Resultado = " + resultadoSubtracao;
 }
 
+// DIVISÃO 
 function operacaoDivisao() {
-    document.getElementById('operacao').innerHTML = "÷";
+    document.getElementById('operacao').innerHTML = "/";
 
     var number1 = document.getElementById("numberOne").value;
     var number2 = document.getElementById("numberTwo").value;
@@ -31,9 +36,9 @@ function operacaoDivisao() {
     document.getElementById("resultado").innerHTML = "Resultado = " + resultadoDivisao;
 }
 
-function operacaoMultiplicacao() {
-    document.getElementById('operacao').innerHTML = "X";
-
+// MULTIPLICAÇÃO 
+function operacaoMultiplicacao()
+document.getElementById('operacao').innerHTML = "X"; {
     var number1 = document.getElementById("numberOne").value;
     var number2 = document.getElementById("numberTwo").value;
 
@@ -42,9 +47,8 @@ function operacaoMultiplicacao() {
     document.getElementById("resultado").innerHTML = "Resultado = " + resultadoMultiplicacao;
 }
 
+// POTENCIAÇÃO
 function operacaoPotenciacao() {
-    document.getElementById('operacao').innerHTML = "^";
-
     var number1 = document.getElementById("numberOne").value;
     var number2 = document.getElementById("numberTwo").value;
 
@@ -53,17 +57,12 @@ function operacaoPotenciacao() {
     document.getElementById("resultado").innerHTML = "Resultado = " + resultadoPotenciacao;
 }
 
+// RAIZ QUADRADA 
 function operacaoRaiz() {
-    document.getElementById('#1').style.display = "none";
-    document.getElementById('#2').innerHTML = "#1"
-
-
-    document.getElementById('operacao').innerHTML = "√";
-
     var number1 = document.getElementById("numberOne").value;
     var number2 = document.getElementById("numberTwo").value;
 
-    var resultadoRaiz = Math.sqrt(parseFloat(number1)) || Math.sqrt(parseFloat(number2));
+    var resultadoRaiz = Math.sqrt(parseFloat(number1));
 
     document.getElementById("resultado").innerHTML = "Resultado = " + resultadoRaiz;
 }
