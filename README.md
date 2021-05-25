@@ -1,10 +1,7 @@
-# **_Calculadora_**
+# **_Calculadora_** 🖩
 
-#### Calculadora simples desenvolvida em HTML juntamente com a linguagem de programação JavaScript e, estilizado com CSS + Responsividade.
+#### Calculadora básica desenvolvida utilizando as Linguagens HTML + JavaScript e CSS.
 
 #### Obs¹: Projeto apenas para fins acadêmicos, nada profissional e nem de qualidade.
 
----
-
-##### By: Marlon Sant' Anna [LF]
-##### Link: [CalculadoraLF](www.calculadoraLF.com "Site da CalculadoraLF")
+#### _GitHub Pages_: [Calculadora LF](https://marlonsj02.github.io/calculadoraLF/)
