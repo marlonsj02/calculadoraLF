@@ -1,7 +1,13 @@
-# **_Calculadora_** 🖩
+# **_Calculator_** 🖩
 
-#### Calculadora básica desenvolvida utilizando as Linguagens HTML + JavaScript e CSS.
+**LAYOUT FROM CALCULATOR**
 
-#### Obs¹: Projeto apenas para fins acadêmicos, nada profissional e nem de qualidade.
+![image](https://user-images.githubusercontent.com/70297614/121628145-10527a80-ca4f-11eb-95c3-eb52994f3dc6.png)
 
-#### _GitHub Pages_: [Calculadora LF](https://marlonsj02.github.io/calculadoraLF/)
+---
+
+#### Calculator basic, developed using the languages: HTML and CSS + JavaScript
+
+#### This calculator is hosted on _GitHub Pages_, to access it [click here](https://marlonsj02.github.io/calculadoraLF/).
+
+---
